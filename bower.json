@@ -1,5 +1,26 @@
 {
   "name": "import-lodash",
+  "version": "1.0.0",
+  "authors": [
+    "Gabriel Ribeiro <biel.ribeiro1990@gmail.com>"
+  ],
+  "keywords": [
+    "Polymer",
+    "web-components",
+    "webcomponent",
+    "element",
+    "lodash",
+    "import",
+    "js",
+    "javascript",
+    "library"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "homepage": "https://github.com/IngressoRapidoWebComponents/import-lodash",
   "description": "Import of Lodash using HTML Imports",
   "main": "import-lodash.html",
   "dependencies": {
