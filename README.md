@@ -1,3 +1,5 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/IngressoRapidoWebComponents/import-lodash)
+
 # \<import-lodash\>
 
 Import of Lodash using HTML Imports
