@@ -4,6 +4,8 @@
   "authors": [
     "Gabriel Ribeiro <biel.ribeiro1990@gmail.com>"
   ],
+  "description": "Import of Lodash using HTML Imports",
+  "main": "import-lodash.html",
   "keywords": [
     "Polymer",
     "web-components",
@@ -20,9 +22,13 @@
     "node_modules",
     "bower_components"
   ],
-  "homepage": "https://github.com/IngressoRapidoWebComponents/import-lodash",
-  "description": "Import of Lodash using HTML Imports",
-  "main": "import-lodash.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngressoRapidoWebComponents/import-lodash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IngressoRapidoWebComponents/import-lodash/issues"
+  },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.9.0",
     "lodash": "^4.17.4"
@@ -33,7 +39,5 @@
     "web-component-tester": "Polymer/web-component-tester#^6.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "resolutions": {
-    "lodash": "^4.17.4"
-  }
+  "homepage": "https://github.com/IngressoRapidoWebComponents/import-lodash",
 }
