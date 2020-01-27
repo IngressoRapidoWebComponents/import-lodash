@@ -30,7 +30,7 @@
     "url": "https://github.com/IngressoRapidoWebComponents/import-lodash/issues"
   },
   "dependencies": {
-    "polymer": "Polymer/polymer",
+    "polymer": "Polymer/polymer#v2.8.0",
     "lodash": "^4.17.4"
   },
   "homepage": "https://github.com/IngressoRapidoWebComponents/import-lodash"
