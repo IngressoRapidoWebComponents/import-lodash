@@ -1,1 +1,2 @@
-import '../lodash/dist/lodash.min.js';
+import '../lodash/lodash.min.js';
+
