@@ -1,11 +1,5 @@
 {
-  "name": "import-lodash",
-  "version": "1.0.1",
-  "authors": [
-    "Gabriel Ribeiro <biel.ribeiro1990@gmail.com>"
-  ],
   "description": "Import of Lodash using HTML Imports",
-  "main": "import-lodash.html",
   "keywords": [
     "Polymer",
     "web-components",
@@ -17,21 +11,41 @@
     "javascript",
     "library"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngressoRapidoWebComponents/import-lodash.git"
+  },
+  "homepage": "https://github.com/IngressoRapidoWebComponents/import-lodash",
+  "name": "import-lodash",
+  "version": "1.0.1",
+  "authors": [
+    "Gabriel Ribeiro <biel.ribeiro1990@gmail.com>"
+  ],
+  "main": "import-lodash.js",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IngressoRapidoWebComponents/import-lodash.git"
-  },
   "bugs": {
     "url": "https://github.com/IngressoRapidoWebComponents/import-lodash/issues"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#v2.8.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "@polymer/polymer": "^3.0.0"
   },
-  "homepage": "https://github.com/IngressoRapidoWebComponents/import-lodash"
+  "resolutions": {
+    "inherits": "2.0.3",
+    "samsam": "1.1.3",
+    "supports-color": "3.1.2",
+    "type-detect": "1.0.0"
+  },
+  "author": "Gabriel Ribeiro <biel.ribeiro1990@gmail.com>",
+  "devDependencies": {
+    "@polymer/iron-component-page": "^4.0.0",
+    "@polymer/iron-demo-helpers": "^3.0.0",
+    "wct-browser-legacy": "^1.0.1",
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  }
 }

@@ -6,10 +6,10 @@
 
     <title>import-lodash test</title>
 
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    <script src="../../web-component-tester/browser.js"></script>
+    <script src="../../@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script src="../../wct-browser-legacy/browser.js"></script>
 
-    <link rel="import" href="../import-lodash.html">
+    <script type="module" src="../import-lodash.js"></script>
   </head>
   <body>
     <test-fixture id="basic">
@@ -18,13 +18,14 @@
       </template>
     </test-fixture>
 
-    <script>
-      suite('import-lodash', function() {
-        test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'import-lodash');
-        });
-      });
-    </script>
+    <script type="module">
+import '../import-lodash.js';
+suite('import-lodash', function() {
+  test('instantiating the element works', function() {
+    var element = fixture('basic');
+    assert.equal(element.is, 'import-lodash');
+  });
+});
+</script>
   </body>
 </html>
